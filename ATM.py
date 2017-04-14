@@ -1,5 +1,4 @@
-
-
+# Beginners-ATM #
 val, bal = raw_input().split()
 val, bal = int(val),float(bal)
 if (0 < val <= 2000)and (0 < bal <= 20000):

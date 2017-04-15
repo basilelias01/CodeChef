@@ -1,0 +1,16 @@
+n = int(raw_input())
+lst = []
+lst2 = []
+for i in range(0, n):
+        x, y, z = raw_input().split()
+        x, y, z = int(x), int(y), int(z)
+        lst.append(x)
+        lst.append(y)
+        lst.append(z)
+        lst.sort()
+        lst2.append(lst[1])
+        lst = []
+
+for x in lst2:
+    print x
+

@@ -1,16 +1,14 @@
 n = int(raw_input())
 lst = []
-lst2 = []
+
 for i in range(0, n):
         x, y, z = raw_input().split()
-        x, y, z = int(x), int(y), int(z)
-        lst.append(x)
-        lst.append(y)
+        x = x * y
+        print  x
+        x, z = int(x), int(z)
+        z = x % z
         lst.append(z)
-        lst.sort()
-        lst2.append(lst[1])
-        lst = []
 
-for x in lst2:
+for x in lst:
     print x
 
